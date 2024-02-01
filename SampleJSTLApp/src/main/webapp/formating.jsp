@@ -14,6 +14,24 @@
     </head>
     <body>
         <h3>
+            <fmt:setLocale value="hi_IN"/>
+            <fmt:setBundle var="myvals" basename="myvalues"/>
+            
+            <h2> Greeting : <fmt:message key="greeting" bundle="${myvals}"/> </h2>
+            
+                <h4> Company : <fmt:message key="company" bundle="${myvals}"/> </h2>
+        
+                 <h4> Address : <fmt:message key="address" bundle="${myvals}"/> </h2>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <%
                 request.setAttribute("curdate", new Date() );
 

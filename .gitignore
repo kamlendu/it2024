@@ -4,3 +4,17 @@
 /ListenerApp/target/
 /SampleJSPApp/target/
 /SampleJSTLApp/target/
+/SampleEJBApp/target/
+/TestStates/target/
+/CurrencyModule/target/
+/CurrencyWebApp/target/
+/ShopEJBModule/target/
+/ShopWebApp/target/
+/EnterpriseBookApp/target/
+/MessageModule/build/
+/MessageModule/dist/
+/MessageModule/nbproject/private/
+/RemoteEJBModule/target/
+/EJBClientApp/target/
+/StringEJBModule/target/
+/JSPEJBApp/target/
