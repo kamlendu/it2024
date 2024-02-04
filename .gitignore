@@ -18,3 +18,8 @@
 /EJBClientApp/target/
 /StringEJBModule/target/
 /JSPEJBApp/target/
+/EJBModule1/nbproject/private/
+/EJBMessagingModule/nbproject/private/
+/EJBMessagingModule/dist/
+/EJBMessagingModule/build/
+/MessageClientApp/target/
