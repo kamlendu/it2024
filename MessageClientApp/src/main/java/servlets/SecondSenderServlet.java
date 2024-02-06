@@ -63,8 +63,8 @@ public class SecondSenderServlet extends HttpServlet {
                 
                 InitialContext ic = new InitialContext(p);
                 
-                Queue queue = (Queue) ic.lookup("jms/mware");
-                ConnectionFactory cf = (ConnectionFactory) ic.lookup("jms/mwareFactory");
+                Queue queue = (Queue) ic.lookup("jms/itqueue");
+                ConnectionFactory cf = (ConnectionFactory) ic.lookup("jms/itqueueFactory");
                 Connection con = cf.createConnection();
                 Session session = con.createSession();
                 MessageProducer mp = session.createProducer(queue);
