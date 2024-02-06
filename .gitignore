@@ -23,3 +23,6 @@
 /EJBMessagingModule/dist/
 /EJBMessagingModule/build/
 /MessageClientApp/target/
+/EJBRecieverModule/nbproject/private/
+/EJBRecieverModule/dist/
+/EJBRecieverModule/build/
