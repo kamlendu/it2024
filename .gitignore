@@ -29,3 +29,5 @@
 /SingletonApp/target/
 /DataApp/target/
 /PublishApp/target/
+/SOAPApp/nbproject/private/
+/SOAPApp/build/
