@@ -1,4 +1,4 @@
-package it.jsfapp.resources;
+package it.datajsfapp.resources;
 
 import ejb.BookBean;
 import entity.BookMaster;
@@ -10,7 +10,6 @@ import javax.ws.rs.Produces;
 
 /**
  *
- * 
  * @author 
  */
 @Path("rest")
@@ -18,12 +17,10 @@ public class JakartaEE8Resource {
     
     @EJB BookBean bm;
     
-    
-   
     @GET
-    @Path("getbook")
     @Produces("application/json")
-    public Collection<BookMaster> getBooks(){
-        return bm.getAllBooks();
-    }
+   public Collection<BookMaster>  getAllBooks()
+   {
+     return  bm.getAllBooks();
+   }
 }
