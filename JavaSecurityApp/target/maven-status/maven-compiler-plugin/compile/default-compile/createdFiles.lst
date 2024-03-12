@@ -1,0 +1,4 @@
+it/javasecurityapp/resources/JakartaEE8Resource.class
+it/javasecurityapp/JakartaRestConfiguration.class
+config/Project.class
+servlets/SecureServlet.class
