@@ -4,6 +4,7 @@
  */
 package servlets;
 
+import client.RestClient;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.annotation.security.DeclareRoles;
@@ -26,6 +27,12 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(name = "SecureServlet", urlPatterns = {"/SecureServlet"})
 public class SecureServlet extends HttpServlet {
+    
+    //@EJB SecureBean sb;
+    
+    RestClient client;
+    
+    
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -47,7 +54,9 @@ public class SecureServlet extends HttpServlet {
             out.println("<title>Servlet SecureServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet SecureServlet at " + request.getContextPath() + "</h1>");
+            
+            client = new RestClient();
+            out.println("<h1> " + client.sayHello() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
