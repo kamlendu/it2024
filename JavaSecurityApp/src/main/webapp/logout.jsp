@@ -5,7 +5,7 @@
 --%>
 
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" import="record.KeepRecord" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -19,7 +19,7 @@
             
        request.logout();
        session.invalidate();
-      //KeepRecord.reset();
+      KeepRecord.reset();
 //        
     // request.getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
        response.sendRedirect("index.jsp");
