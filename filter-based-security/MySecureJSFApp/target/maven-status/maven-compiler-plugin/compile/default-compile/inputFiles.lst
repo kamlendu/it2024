@@ -1,0 +1,10 @@
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/config/Project.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/beans/LoginBean.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/beans/HelloBean.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/filter/NoCacheFilter.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/ejb/SecureBean.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/filter/RestFilter.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/record/KeepRecord.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/client/RestClient.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/it/securejsfapp/JakartaRestConfiguration.java
+/root/NetBeansProjects/it2024/MySecureJSFApp/src/main/java/it/securejsfapp/resources/JakartaEE8Resource.java
