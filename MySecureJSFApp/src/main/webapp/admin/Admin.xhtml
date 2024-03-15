@@ -11,6 +11,10 @@
         </h2>
         
         <br/><!-- comment -->
+         <br/>
+        <h2> ${helloBean.secureHello} </h2>
+        <h:outputText id="tx" style="color:red" value="#{helloBean.message}"/> 
+     <br/>
      <h:form>
      <h:commandLink style="color:red" id="link" value="Logout" action="#{loginBean.logout()}"/>
      </h:form>  

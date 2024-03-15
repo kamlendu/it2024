@@ -115,9 +115,9 @@ public class LoginBean {
           //  session.setAttribute("username", username);
           //  session.setAttribute("password", password);
           
-//          KeepRecord.setUsername(username);
-//          KeepRecord.setPassword(password);
-//         
+          KeepRecord.setUsername(username);
+          KeepRecord.setPassword(password);
+         
           System.out.println("Role:"+ ctx.getCallerPrincipal().getName()+" "+ ctx.isCallerInRole("Admin"));
           
         if(ctx.isCallerInRole("Admin"))
