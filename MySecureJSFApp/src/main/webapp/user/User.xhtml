@@ -6,7 +6,12 @@
         <title>Facelet Title</title>
     </h:head>
     <h:body>
-       <h:link style="color:red" id="link" value="Login" outcome="/Login"/>
-      <br/>  Hello from Facelets
+        <h2>
+        Hello ${loginBean.username} belonging to ${loginBean.role} group
+        </h2>
+         <br/><!-- comment -->
+       <h:form>
+     <h:commandLink style="color:red" id="link" value="Logout" action="#{loginBean.logout()}"/>
+     </h:form>  
     </h:body>
 </html>

@@ -1,11 +1,9 @@
-package beans;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package beans;
 
 import java.util.Set;
 import javax.enterprise.context.RequestScoped;
@@ -101,8 +99,6 @@ public class LoginBean {
           
           KeepRecord.setUsername(username);
           KeepRecord.setPassword(password);
-         
-          System.out.println(ctx.isCallerInRole("Admin"));
           
         if(ctx.isCallerInRole("Admin"))
             return "/admin/Admin";

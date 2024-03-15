@@ -6,12 +6,13 @@
         <title>Facelet Title</title>
     </h:head>
     <h:body>
-        <h2>
-            Hello ${loginBean.username} belonging to ${loginBean.role} group
-        </h2>
+        <h2>  Hello from Admins !!!</h2>
+        <br/>
+       
+     <h:form>
+     <h:commandLink style="color:red" id="link" value="Logout" action="#{loginBean.logout()}"/>
+     </h:form>  
         
-        <br/><!-- comment -->
-        <h:commandLink style="color:red" id="link" value="Logout" action="#{loginBean.logout()}"/>
- 
     </h:body>
 </html>
+
