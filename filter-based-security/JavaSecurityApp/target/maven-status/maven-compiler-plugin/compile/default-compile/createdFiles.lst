@@ -1,0 +1,9 @@
+filter/AuthenticationFilter.class
+it/javasecurityapp/JakartaRestConfiguration.class
+config/Project.class
+client/RestClient.class
+client/RestClient$1.class
+ejb/SecureBean.class
+record/KeepRecord.class
+it/javasecurityapp/resources/RestResource.class
+servlets/SecureServlet.class

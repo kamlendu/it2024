@@ -101,6 +101,8 @@ public class LoginBean {
           
           KeepRecord.setUsername(username);
           KeepRecord.setPassword(password);
+         
+          System.out.println(ctx.isCallerInRole("Admin"));
           
         if(ctx.isCallerInRole("Admin"))
             return "/admin/Admin";
