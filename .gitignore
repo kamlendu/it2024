@@ -38,3 +38,9 @@
 /SecureJSFApp/target/
 /NewSecureJSF/target/
 /MySecureJSFApp/target/
+/jwt-based-security/SecurityApp/target/
+/jwt-based-security/jsf-jwt-security-htmllogin/SecureJSFApp/target/
+/jwt-based-security/jsf-jwt-security-jsflogin/SecureJSFApp/build/
+/jwt-based-security/jsf-jwt-security-jsflogin/SecureJSFApp/dist/
+/jwt-based-security/jsf-jwt-security-jsflogin/SecureJSFApp/nbproject/private/
+/MyHashWebApp/target/
