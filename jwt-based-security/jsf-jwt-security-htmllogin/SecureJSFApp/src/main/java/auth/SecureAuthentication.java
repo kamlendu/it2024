@@ -64,6 +64,7 @@ public class SecureAuthentication implements HttpAuthenticationMechanism, Serial
         String token = extractToken(ctx);
         try {
             System.out.println("Name = " + request.getParameter("username"));
+           
             if (token == null && request.getParameter("username") != null) {
                 String username = request.getParameter("username");
                 String password = request.getParameter("password");
